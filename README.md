@@ -1,6 +1,6 @@
 # reporte-de-incidencias
 
-### Dashboard Link : https://github.com/Sheryssefc/reporte-de-incidencias/tree/main
+### Dashboard Preview : https://github.com/Sheryssefc/reporte-de-incidencias/tree/main](https://github.com/Sheryssefc/reporte-de-incidencias/blob/main/reporte_de_incidencias.png
 
 # Jira Incident Report - FinanSmart (2024)
 This incident report covers data from 2024 up to November, collected from Jira for the fictional fintech company **FinanSmart**. The report aims to provide a clear and detailed view of the reported incidents, indentifying problem areas, and make informed decisions to improve service and keep users satisfied.
