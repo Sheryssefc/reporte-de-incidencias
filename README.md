@@ -16,16 +16,18 @@ The following steps were taken to load, organize, and clean the data from Jira i
 ### 1. **Data Collection**
    - **Data Export**: The data was exported from Jira in CSV format.
 ### 2. **Data Organization**
-   - **Importing into Power BI**: The CSV files or data retrieved from Jira were imported into Power BI.
+   - **Categorizing Data**: Grouped incidents by status, problem type, and responsible person to make the data easier to analyze and interpret.
+   - **Sorting and Structuring**: Data was sorted and structured in a way that facilitates easy navigation and understanding, with clear definitions for each metric and dimension.
+### 3. **Data Cleaning**
+   - **Grammar Corrections**: Corrected any grammatical errors in textual data to ensure clarity and consistency across the dataset.
+   - **Removing Redundant Words**: Eliminated repetitive words or phrases to improve the quality of the data and ensure better analysis.
    - **Removing Incomplete Records**: Rows with missing or incorrect data were removed to ensure accurate analysis.
    - **Data Type Conversion**: Correct data types (e.g., dates, numbers, text).
-### 3. **Data Cleaning**
-   - **Data Modeling**: A suitable data model was created to relate incident information to other tables, such as the calendar table, to facilitate time-based analysis.
-   - **Field Transformation**: Some fields were transformed, such as converting the `Creation Date` to a more suitable format and creating new columns to facilitate analysis, like  `MonthNumeric`.
 ### 4. **Creating Visualizations**
+   - **Importing into Power BI**: The CSV files or data retrieved from Jira were imported into Power BI.
+   - **Field Transformation**: Some fields were transformed to a more suitable format and creating new columns to facilitate analysis, like  `MesNumerico`.
    - **Interactive Dashboard**: Visualizations such as bar charts, line charts, and KPI cards were created to analyze total incidents, resolved incidents, pending, and canceled issues.
    - **Area-Based Analysis**: Charts also display incidents segmented by company area, allowing identification of areas with more problems.
-
 ### 5. **Adding Filters**
    - **Interactive Filters**: Filters were added so users can view data by month, responsible person, or problem type, making the report more interactive.
    - **KPI Measures**: Custom measures were created to calculate total incidents by status, average resolution time, and other key metrics.
